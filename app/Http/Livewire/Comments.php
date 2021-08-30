@@ -11,7 +11,7 @@ class Comments extends Component
         [
             'body' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ex cupiditate quo commodi aspernatur delectus veniam necessitatibus.',
             'created_at' => '3 min ago',
-            'creator' => 'Sarthak'
+            'creator' => 'Maruf'
         ]
     ];
 
@@ -23,7 +23,7 @@ class Comments extends Component
         array_unshift($this->comments, [
             'body' => $this->newComment,
             'created_at' => Carbon::now()->diffForHumans(),
-            'creator' => 'Bitfumes'
+            'creator' => 'Admin'
         ]);
         $this->newComment = "";
     }
