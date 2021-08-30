@@ -9,7 +9,8 @@
 </head>
 <body>
     
-    @livewire('counter')
+    {{-- @livewire('counter') --}}
+    @livewire('comments')
     @livewireScripts
 </body>
 </html>
